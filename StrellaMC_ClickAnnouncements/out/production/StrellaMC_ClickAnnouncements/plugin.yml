@@ -1,0 +1,5 @@
+main: me.MuchDan.StrellaMCAnnouncer.ClickAnnouncements
+name: ClickAnnouncements
+version: 0.0.0
+author: MuchDan
+api-version: 1.16

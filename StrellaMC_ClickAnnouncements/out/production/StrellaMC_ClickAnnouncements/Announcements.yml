@@ -1,0 +1,74 @@
+#############################
+##  ClickAnnouncements
+##  Example Use:
+##Announcement1:    //This is the title, It will not be shown ingame.
+##  Announcement:   //Announcement is an StringList, Any String put there will be output into chat
+##     - "&7[&3Strella&fMC&7] &bClick Here &7to see our &cGlobal Experience boosters&7 and support our server!"
+##   HoverMessage: "&b&lClickHere"    //This is the message that displays when a user hovers over the chat.
+##   ActionType: Pla yerAction         //Three Action types, {OpenWebLink, PlayerAction, NoAction}                        Action Types:
+##   Action: "/Boosters"              //Action that is preformed.                                                   OpenWebLink: Opens URL prompt in Action
+##   Time: 60 #In seconds.            //This will run 60 seconds after the previous.                                PlayerAction: Makes Player run command in Action
+Announcements: #                                                                                                    NoAction: Does nothing when clicked...
+  Announcement1:
+    Announcement:
+      - "&7[&3Strella&fMC&7] &bClick Here &7to see our &cGlobal Experience boosters&7 and support our server!"
+    HoverMessage: "&b&lClickHere"
+    ActionType: PlayerAction
+    Action: "/Boosters"
+    Time: 180 #In seconds.
+  Announcement2:
+    Announcement:
+      - "&7[&3Strella&fMC&7] &bClick Here &7to check out our store and support our server!"
+    HoverMessage: "&b&lClickHere"
+    ActionType: PlayerAction
+    Action: "/buy"
+    Time: 180
+  Announcement3:
+    Announcement:
+      - "&7[&3Strella&fMC&7] &bClick Here &7to see a list of &bPlayer Ranks!"
+    HoverMessage: "&b&lClickHere"
+    ActionType: PlayerAction
+    Action: "/ranks"
+    Time: 180
+  Announcement4:
+    Announcement:
+      - "&7[&3Strella&fMC&7] &bClick Here &7to visit our &bWebsite!"
+    HoverMessage: "&b&lClickHere"
+    ActionType: OpenWebLink
+    Action: "https://StrellaMC.com"
+    Time: 180
+  Announcement5:
+    Announcement:
+      - "&7[&3Strella&fMC&7] &bClick Here &7to see a list of &bVoting sites &7for awesome rewards!"
+    HoverMessage: "&b&lClickHere"
+    ActionType: PlayerAction
+    Action: "/vote"
+    Time: 180
+  Announcement6:
+    Announcement:
+      - "&7[&3Strella&fMC&7] Typing takes too long, &bClick Here &7to join our &bDiscord Server!"
+    HoverMessage: "&b&lClickHere"
+    ActionType: OpenWebLink
+    Action: "https://discord.gg/nS3sMhv"
+    Time: 180
+  Announcement7:
+    Announcement:
+      - "&7[&3Strella&fMC&7] Need Help? &bClick here&7 to view a help menu, or type &b#Help!"
+    HoverMessage: "&b&lClickHere"
+    ActionType: PlayerAction
+    Action: "#Help"
+    Time: 180
+  Announcement8:
+    Announcement:
+      - "&7[&3Strella&fMC&7] Try using &bAuction House or Auction&7 to sell items to other players"
+    HoverMessage: "&b&lClickHere to open Auction House"
+    ActionType: PlayerAction
+    Action: "/ah"
+    Time: 180
+  Announcement9:
+    Announcement:
+      - "&7[&3Strella&fMC&7] &bClick Here &7to see our &7Custom Crafting Recipes!"
+    HoverMessage: "&b&lClickHere"
+    ActionType: PlayerAction
+    Action: "#CustomItems"
+    Time: 180
